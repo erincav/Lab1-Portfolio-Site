@@ -1,0 +1,177 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+.wrapper{
+  width: 100%;
+  margin:0 auto;
+}
+
+/*Navigation Bar*/
+nav{
+/*background-color:pink;*/
+width:100%;
+height:35px;
+overflow:hidden;
+
+}
+
+ul{
+  list-style-type: none;
+  display:inline-block;
+  float:right;
+  /*background-color: blue;*/
+  height:30px;
+  margin: 5px;
+  padding-top: 5px;
+  overflow:hidden;
+}
+
+li{
+  display:inline-block;
+  padding:0 20px;
+  /*background-color:grey;*/
+}
+
+li a {
+  text-decoration: none;
+  color:black;
+  font-family:"Brush Script Std","Lucida Calligraphy", sans-serif;
+  font-weight:bold;
+  display:inline-block;
+  height:30px;
+  padding:0 5px 0 5px;
+}
+
+li a:hover, li:hover{
+  color:white;
+  background-color:#1e1517;
+}
+li:hover{
+  color:white;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+}
+
+/* HOME BANNER*/
+.banner{
+  background-color:gray;
+  height:400px;
+  width:100%;
+}
+.grid-container{
+  width:100%;
+  margin:0 auto;
+  display:inline-block;
+  text-align: center;
+}
+
+.img-grid{
+  /*background-color:teal;*/
+  width:95%;
+  display:inline-block;
+  text-align: center;
+}
+
+.floated_img{
+  float:left;
+  margin:0 auto;
+  padding:5px;
+  height:250px;
+  width:250px;
+}
+
+/*GRID IMAGES*/
+#grid_img1{
+background-color:red;
+  height:250px;
+  width:250px;
+}
+#grid_img2{
+  background-color:orange;
+    height:250px;
+    width:250px;
+  }
+#grid_img3{
+  background-color:yellow;
+    height:250px;
+    width:250px;
+}
+#grid_img4{
+  background-color:green;
+    height:250px;
+    width:250px;
+}
+#grid_img5{
+  background-color:blue;
+    height:250px;
+    width:250px;
+}
+#grid_img6{
+  background-color:purple;
+    height:250px;
+    width:250px;
+}
+/*ABOUT BANNER*/
+.about-banner, .contact-banner, .resume-banner, .portfolio-banner{
+  background-color:teal;
+  height:300px;
+  width:100%;
+  margin:0 auto;
+}
+.about-container{
+  background-color:grey;
+  height:auto;
+  width:95%;
+  margin:0 auto;
+}
+
+.about-img, #profilepic{
+  background-color: pink;
+  float:left center;
+  margin:auto;
+  padding:auto;
+  height:250px;
+  width:250px;
+  border-radius: 50%;
+  text-align:center;
+  display:inline-block;
+}
+
+.aboutinfo{
+  height:auto;
+  width:50%;
+  background-color: light blue;
+  float:right;
+  margin:0 auto;
+  padding:10px;
+}
+
+.contact-banner{
+  background-color:purple;
+}
+
+.resume-banner{
+  background-color:blue;
+}
+.portfolio-banner{
+  background-color:orange;
+}
+
+.contact-container, .portfolio-container,.resume-container{
+  background-color:grey;
+  height:300px;
+  width:95%;
+  margin:0 auto;
+}
+
+/*FOOTER*/
+footer{
+  color:white;
+  background-color:#1e1517;
+  width:100%;
+  height:60px;
+  text-align:right;
+}
